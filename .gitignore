@@ -1,0 +1,39 @@
+# ── Internal planning & working notes (not for public repo) ──────────────────
+plan-revenueFocusedChurnAnalysis.md
+project-checklist.md
+state_summary.md
+
+# ── Generated artefacts (reproduce by running the notebook) ──────────────────
+champion_model.pkl
+test_features.csv
+test_labels.csv
+feature_names.json
+Churn_Risk_Report.pdf
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS / editor noise ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
